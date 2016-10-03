@@ -1,0 +1,22 @@
+body {
+    background-color: #333333;
+}
+
+h1 {
+  color: red;  
+  background-color: #dedede;
+  font-weight: normal;
+}
+p{
+    background-color: #666666;
+    color: #ffffff;
+}
+.first-paragraph{
+    font-size: 30px;
+    font-family: "Roboto Slab", "montserrat" , arial. sans-serif;
+    border-left: 2px solid yellow;
+    font-weight: bold;
+    font-style: italic;
+    padding: 30px;
+    margin: 120px;
+}
