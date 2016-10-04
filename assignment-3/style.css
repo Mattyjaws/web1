@@ -21,13 +21,17 @@ Navigation
 .main-nav{
     margin: 20px auto;
 }
-.nav-link {
+a.nav-link {
     color: #fff;
     text-decoration: none;
     font-size: 20px;
     margin: 10px 5px;
     padding: 10px 15px;
     border: 2px solid rgba(255, 255, 255, 0);
+}
+a.nav-link:hover{
+    border-color: #ffd86b;
+    color: #ffd86b;
 }
 /*---------------------------
 Main Content
