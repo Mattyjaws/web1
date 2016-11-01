@@ -1,0 +1,313 @@
+/*-----------------------
+General styling
+------------------------*/
+body{
+    font-family: 'Montserrat Alternates', 'Linden Hill', sans-serif, serif;
+    font-weight: 400;
+    background-color: #f1f1f1;
+    color: #333;
+    margin: 0;
+}
+a,a:visited{
+    text-decoration: none;
+    color: #d69e00;
+}
+a:hover{
+    color: #e4b532;
+}
+/*------------------------------
+Navigation
+-------------------------------*/
+.main-nav{
+    max-width: 960px;
+    margin: 20px auto;
+    text-align: right;
+}
+a.nav-link {
+    box-sizing: border-box;
+    color: #fff;
+    text-decoration: none;
+    height: 40px;
+    line-height: 38px;
+    font-family: 'Montserrat Alternates', serif;
+    font-size: 20px;
+    margin: 10px 5px;
+    padding: 0px 15px;
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 20px;
+    transition: all 0.2s ease;
+    display: inline-block;
+    
+}
+a.nav-link:hover{
+    border-color: #ffd86b;
+    color: #ffd86b;
+}
+#logo{
+    float: left;
+    margin-right: 100px;
+    width: 0;
+    height: 0;
+    color: rgba(255, 255, 255, 0);
+    padding: 60px 160px 0 0;
+    background-image: url('images/logo.png');
+    background-size: 120px, 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+    transition: all 0.2s ease;
+}
+/*---------------------------
+Main Content
+-----------------------------*/
+.main-content{
+    margin: 50px auto;
+    width: 960px;
+}
+
+/*--------------------------------
+Hero
+---------------------------------*/
+.hero{
+    background-color: #222;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    overflow: auto;
+}
+.hero-card{
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.73);
+    color: #efefef;
+    margin: 110px auto 60px auto;
+    padding: 50px;
+    max-width: 960px;
+    text-align: center;
+    box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.3);
+}
+.hero-card-title{
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin: 0;
+    font-size: 50px;
+}
+.hero-card-description{
+    font-family: 'Linden Hill', serif;
+    font-size: 30px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+.hero-card-link{
+    text-decoration: none;
+    color: #efefef;
+    font-size: 18px;
+    border:2px solid #efefef;
+    border-radius: 18px;
+    padding:5px 20px;
+    display: inline-block;
+    transition: all 0.2s ease;
+}
+.hero-card-link:hover{
+    color:#D69E00;
+    border-color: #D69E00;
+}
+/*----------------------------
+footer
+---------------------------*/
+footer{
+    background-color: #333;
+    color:#999;
+    padding: 20px;
+    text-align: center;
+}
+.footer-link{
+    color: #AB810A;
+    text-decoration: none;
+}
+.footer-link:hover{
+    color: #D69E00;
+    text-decoration: underline;
+}
+/*--------------------------
+Home
+--------------------------*/
+.card{
+    background-color: #fff;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+    width: calc(33.3% - 20px);
+    min-height: 310px;
+    margin: 10px;
+    float: left;
+    text-decoration: none;
+    color: #333;
+    transition: all .2 ease;
+}
+.card:hover{
+    transform: scale(1.025);
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
+}
+.card-title{
+    padding: 0px 20px;
+    margin: 20px 0 10px 0;
+    font-size: 24px;
+    font-family: 'Montserrat Alternates', serif;
+}
+.card-description{
+    padding: 0 20px;
+    margin: 0 0 20px 0;
+    color: #999;
+}
+/*-------------------------
+About
+---------------------------*/
+.about-list-container{
+    border-left: 5px solid #d69e00;
+    text-align: left;
+    padding: 20px 50px;
+    margin-bottom: 50px;
+}
+.about-photo{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+}
+.about-list-title{
+    font-size: 30px;
+    font-weight: 400;
+    color: #d69e00;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.about-list{
+    font-size: 24px;
+    font-family: 'Linden Hill', sans-serif;
+}
+.about-list li{
+    margin: 1em auto;
+    font-family: 'Linden Hill', sans-serif;
+}
+/*------------------------
+Coffee
+--------------------------*/
+.coffee-quote{
+    font-size: 30px;
+    padding: 20px;
+    margin: 20px 15px;
+    border-left: 5px solid #d69e00;
+}
+.menu{
+    border: 4px solid #ddd;
+    text-align: left;
+    padding: 20px;
+    display: inline-block;
+}
+cite{
+    display: block;
+    color: #666;
+    font-size: 16px;
+}
+dt{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+dd{
+    color: #666;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.menu th{
+    padding: 10px;
+}
+.menu .size{
+    min-width: 150px;
+    text-align: right;
+    font-size: 14px;
+}
+.menu td{
+    padding: 10px 10px;
+    vertical-align: top;
+    text-align: right;
+}
+.menu dd{
+    margin-left: 0;
+    color: #666;
+    font-style: italic;
+    font-size: 14px;
+}
+.menu .label{
+    text-align: left;
+}
+/*---------------------
+Assignments 
+----------------------*/
+.assignment-list{
+    border: 4px solid #ddd;
+    padding: 20px;
+    margin: 20px auto;
+    width: 860px;
+}
+.assignment-list dt{
+    margin-top: 20px;
+}
+.assignment-list a{
+    color: #3c8bce;
+    font-size: 18px;
+}
+.assignment-list a:hover{
+    color: #115690;
+}
+.assignment-list dd{
+    margin-left: 0;
+}
+/*------------------------
+Search
+-------------------------*/
+.search-form{
+    background-color: #ffffff;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+}
+label{
+    margin-right: 10px;
+}
+input{
+    border: 1px solid #ddd;
+    height: 30px;
+    width: 630px;
+    font-size: 14px;
+    padding: 0 10px;
+}
+button{
+    background-color: #3c8bce;
+    height: 32px;
+    margin-left: 10px;
+    padding: 0 20px;
+    border: 0;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+/*---------------------
+PHOTOS
+---------------------*/
+#home .hero {
+      background-image: url('images/ocean.jpg');
+      /*photo by NASA https://hd.unsplash.com/photo-1451186859696-371d9477be93 */
+}
+#about .hero {
+      background-image: url('images/blueberries.jpg');
+      /* photo from @veeterzy https://unsplash.com/search/blueberries?photo=Hc42xXu_WOg*/
+}
+#coffee .hero {
+      background-image: url('images/coffee.jpg');
+      /* photo from Jakub Kapusnak https://foodiesfeed.com/flatwhite-coffee-closeup-berlin */
+}
+#search .hero {
+      background-image: url('images/sky.jpg');
+      /* Photo from drew collins https://unsplash.com/?photo=U713MZX1x0w */
+}
+#assignments .hero {
+      background-image: url('images/coast.jpg');
+      /* photo from Stefan Kunze https://unsplash.com/?photo=_SmZSuZwkHg*/
+}

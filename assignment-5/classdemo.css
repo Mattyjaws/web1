@@ -1,0 +1,28 @@
+p{
+    background-color: gray;
+    width: 200px;
+    display: inline-block;
+}
+a{
+    background-color: green;
+    color: #ffffff;
+    padding: 10px 20px;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+}
+body{
+    text-align: center;
+}
+div{
+    border: 2px solid red;
+    width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*
+to center a block element
+set the width.
+margin-left, right to be auto
+*/
+
