@@ -1,0 +1,65 @@
+body{
+    font-family: arial, sans-serif;
+}
+.main-nav{
+    background-color: #333333;
+    font-size: 20px;
+    text-align: center;
+}
+.nav-teal{
+    color: #628788;
+}
+.nav-blue{
+    color: #288bcd;
+}
+.nav-red{
+    color: #ee5573;
+}
+.nav-yellow{
+    color: #ffa73a;
+}
+.nav-link{
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 3px;
+}
+.nav-link:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+/*--------
+HERO STYLES
+--------*/
+.hero{
+    background-image: url(images/city-yellow.jpg);
+    min-height: 400px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+.hero-h1{
+    margin:none;
+    padding-top: 100px;
+}
+
+.left-box{
+    width: 300px;
+    height: 300px;
+    background-color: #FFA73A;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+}
+.right-box{
+    border: 2px solid #FFA73A;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+.main-content{
+    text-align: center;
+}
