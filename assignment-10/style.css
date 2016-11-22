@@ -1,0 +1,22 @@
+@font-face{
+    font-family: 'Bebas Neue';
+    src: url("Fonts/BebasNeue.otf");
+}
+.main-nav{
+    background-image: url(Images/Nav.png);
+    max-width: 1280px;
+    min-height: 150px;
+    margin: auto;
+    text-align: center;
+    
+}
+.nav-link{
+    font-family: "Bebas Neue";
+    font-size: 63px;
+    color: white;
+    text-decoration: none; 
+    margin: 30px;
+    text-align: center;
+    display: inline-block;
+}
+

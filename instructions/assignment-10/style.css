@@ -2,9 +2,11 @@ body{
     font-family: arial, sans-serif;
 }
 .main-nav{
-    background-color: #333333;
+    background-color: rgba(0, 0, 0, 0.8);
     font-size: 20px;
     text-align: center;
+    position: fixed;
+    width: 100%;
 }
 .nav-teal{
     color: #628788;
@@ -40,25 +42,46 @@ HERO STYLES
     background-position: center center;
     color: #fff;
 }
+.hero-blue{
+    background-image: url(images/snow-blue.jpg);
+}
+.hero-red{
+    background-image: url(images/mountains-red.jpg);
+}
 .hero-h1{
     margin:none;
     padding-top: 100px;
 }
-
 .left-box{
     width: 300px;
     height: 300px;
-    background-color: #FFA73A;
     display: inline-block;
     vertical-align: top;
     margin-right: 20px;
 }
+.left-box-yellow{
+    background-color: #FFA73A;
+}
+.left-box-red{
+    background-color: #ee5573;
+}
+.left-box-blue{
+    background-color: #288bcd;
+}
 .right-box{
-    border: 2px solid #FFA73A;
     width: 300px;
     height: 300px;
     display: inline-block;
     vertical-align: top;
+}
+.right-box-yellow{
+    border: 2px solid #FFA73A;
+}
+.right-box-blue{
+    border: 2px solid #288bcd;
+}
+.right-box-red{
+    border: 2px solid #ee5573;
 }
 .main-content{
     text-align: center;
