@@ -1,0 +1,47 @@
+------on index.html--------
+Add in hero images.
+Complete frame for the full page. (html)
+Fix second title text.
+FOOTER
+-------------------------------------
+
+------on group.html----------
+Add in hero images.
+Complete frame for full page. (html)
+Fix info titles and bulk text to right text.
+FOOTER
+----------------------------------------------
+
+------on solo.html------------
+Add in hero images.
+Complete frame for full page. (html)
+FOOTER
+------------------------------------------
+
+-----on festivals.html--------
+Add festival logo images/hero images.
+Complete layout for full page. (html)
+FOOTER
+-------------------------------
+
+------on music.html-----------
+Add links to music genres.
+Complete layout for full page. (html)
+FOOTER.
+-------------------------------
+
+--------CSS------------------
+Complete CSS for festivals.html
+Complete CSS for music.html
+Complete CSS for footer
+Complete CSS for separate page links.
+Fix Gradient background so solid dark color is higher on page.
+ADD LOGO TO NAV BAR FOR ALL PAGES.
+-------------------------------
+
+----------------------CHECKLIST---------------------
+MAKE SURE ALL THINGS THAT LINK, LINK TO PROPER PAGES!
+MAKE SURE FOOTER WORKS CORRECTLY.
+MAKE SURE EMBEDDED MUSIC PLAYS AND CNA LINK OUT TO SITE.
+MAKE SURE EVERYTHING LINES UP CORRECTLY.
+----------------------------------------------------

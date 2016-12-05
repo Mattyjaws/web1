@@ -5,6 +5,7 @@
 .main-nav{
     background-image: url(Images/Nav.png);
     max-width: 1280px;
+    height: 150px;
     text-align: center;
     margin: auto;
 }
@@ -14,12 +15,94 @@
     color: white;
     text-decoration: none; 
     margin: 30px;
-    text-align: center;
     display: inline-block;
 }
 a.nav-link:hover{
     border-top: double;
     border-bottom: double;
     margin: !important;
+}
+.grad{
+    background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(42,42,86,1));
+}
+.info-box{
+    width: 900px;
+    height: 140px;
+    background-color: #2A2A56;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.main-content{
+    width: 900px;
+    margin: 25px auto;
+    display: inherit;
+}
+.number{
+    font-size: 84pt;
+    text-align: center;
+    float: left;
+    margin-top: 8px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: "Bebas Neue";
+    color:white;
+}
+.verticalline{
+    margin-top: 35px;
+    margin-right: 25px;
+    height: 50%;
+    border-left:thick solid white;
+    display: inline-block;
+}
+.list-title{
+    font-family: 'Bebas Neue';
+    font-size: 35px;
+    display: inline-block;
+    color: white;
+    max-height: 35px;
+    max-width: 700px;
+    position: absolute;
+    margin-top: 10px;
+}
+.list-info{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    position: absolute;
+    display: inline-block;
+    color: white;
+    max-width: 700px;
+    max-height: 75px;
+    margin-top: 55px;
+}
+.title-box{
+    height: 190px;
+    width: 900px;
+    background-color: black;
+    margin-top: 10px;
+}
+.title{
+    font-family: 'Bebas Neue';
+    font-size: 60pt;
+    color: white;
+    width: 700px;
+    height: 170px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 3px;
+    margin-left: 100px;
+}
+.hero-image{
+    height: 340px;
+    width: 900px;
+    background-color: black;
+    margin-top: 10px;
+}
+.info-title{
+    color: white;
+    font-size: 50pt;
+    font-family: 'Bebas Neue';
+    text-align: center;
+    
 }
 
