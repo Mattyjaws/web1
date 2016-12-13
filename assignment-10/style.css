@@ -5,6 +5,7 @@
 .main-nav{
     background-image: url(Images/Nav.png);
     max-width: 1280px;
+    min-width: 1280px;
     height: 150px;
     text-align: center;
     margin: auto;
@@ -13,17 +14,21 @@
     font-family: "Bebas Neue";
     font-size: 63px;
     color: white;
-    text-decoration: none; 
     margin: 30px;
     display: inline-block;
+    text-decoration: none;
 }
 a.nav-link:hover{
     border-top: double;
     border-bottom: double;
-    margin: !important;
+}
+a.nav-link:active {
+    border-bottom: double;
 }
 .grad{
     background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(42,42,86,1));
+    background-attachment: fixed;
+    background-size: 100%;
 }
 .info-box{
     width: 900px;
@@ -92,10 +97,20 @@ a.nav-link:hover{
     margin-top: 3px;
     margin-left: 100px;
 }
+.title2{
+    font-family: 'Bebas Neue';
+    font-size: 45pt;
+    color: white;
+    width: 500px;
+    height: 170px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 28px;
+    margin-left: 200px;
+}
 .hero-image{
     height: 340px;
     width: 900px;
-    background-color: black;
     margin-top: 10px;
 }
 .info-title{
@@ -103,6 +118,56 @@ a.nav-link:hover{
     font-size: 50pt;
     font-family: 'Bebas Neue';
     text-align: center;
-    
 }
-
+.footer{
+    max-width: 1280px;
+    min-height: 200px;
+    background-color: black;
+    margin: auto;
+}
+.footer-pi{
+    height:100px;
+    width:300px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.footer-header{
+    height:30px;
+    width:150px;
+    color: white;
+    font-family: "Bebas Neue";
+    font-size: 30px;
+}
+.footer-box{
+    height: 150px;
+    width:300px;
+    margin-left: 40px;
+    margin-top: 20px;
+    padding-top: 30px;
+}
+.genre{
+    background-color: #2A2A56;
+    width: 375px;
+    height: 65px;
+    margin: auto;
+}
+.genre-type{
+    font-family: "Bebas Neue";
+    color: white;
+    font-size: 45pt;
+    text-align: center;
+}
+.song{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.horizontal{
+    border-top: thick solid white;
+    margin: auto;
+    width: 75%;
+}
+.festivals{
+    height: 225px;
+    width: 9000px;
+    margin-top: 20px;
+}
